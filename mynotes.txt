@@ -4,3 +4,9 @@ In the terminal, navigate to the project folder, then type the following:
 
 Doing this will generate and run the server, which we will use to test the
 application. 
+
+###Setting up GIT
+After creating the repository, use the following command to connect the local 
+repository to gitup
+
+git remote add origin "URL to repositry"
