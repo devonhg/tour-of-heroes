@@ -1,25 +1,35 @@
 ###Launching the development server
-In the terminal, navigate to the project folder, then type the following:
-`ng serve --open`
+    In the terminal, navigate to the project folder, then type the following:
+    `ng serve --open`
 
-Doing this will generate and run the server, which we will use to test the
-application. 
+    Doing this will generate and run the server, which we will use to test the
+    application. 
 
 ###Setting up GIT
-After creating the repository, use the following command to connect the local 
-repository to gitup
+    After creating the repository, use the following command to connect the local 
+    repository to gitup
 
-`git remote add origin "URL to repositry"`
+    `git remote add origin "URL to repositry"`
 
-Once done, you can run general git commands, or use vscode's interface for 
-pushing changes into the repository.
+    Once done, you can run general git commands, or use vscode's interface for 
+    pushing changes into the repository.
 
 
 ###Generating a component
-Angular is comprised of components, and building an application is little 
-more than making each piece and putting them together.
+    Angular is comprised of components, and building an application is little 
+    more than making each piece and putting them together.
 
-You can use the CLI to generate a component using the following command:
+    You can use the CLI to generate a component using the following command:
 
-`ng generate component "Component name"`
+    `ng generate component "Component name"`
+
+###Arranging components
+    A component can be dropped into an .html file by putting in an element with
+    the component selector. 
+
+    As an example: `<app-heroes></app-heroes>` will drop the app-heroes component
+    exactly where you put it. 
+
+    In order for this to work, the component must be imported and declared in the
+    module file. 
 
