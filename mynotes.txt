@@ -1,0 +1,6 @@
+###Launching the development server
+In the terminal, navigate to the project folder, then type the following:
+`ng serve --open`
+
+Doing this will generate and run the server, which we will use to test the
+application. 
