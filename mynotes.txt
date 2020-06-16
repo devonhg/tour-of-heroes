@@ -23,6 +23,8 @@
 
     `ng generate component "Component name"`
 
+    You can also generate a service by replacing "component" with "service"
+
 ###Arranging components
     A component can be dropped into an .html file by putting in an element with
     the component selector. 
@@ -33,3 +35,4 @@
     In order for this to work, the component must be imported and declared in the
     module file. 
 
+Left off on observable data
