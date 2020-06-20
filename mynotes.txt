@@ -1,3 +1,9 @@
+###Getting Dependancies
+    If cloning from the repository, you can get the project dependancies with the following
+    command.
+
+    `npm install`
+
 ###Launching the development server
     In the terminal, navigate to the project folder, then type the following:
     `ng serve --open`
